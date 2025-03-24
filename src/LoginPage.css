@@ -1,0 +1,45 @@
+/* SADECE LOGIN SAYFASINDA ARKA PLAN RESMİ KULLAN */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #aab5e4;
+}
+
+.content {
+  background: #bac5f4;
+  padding: 80px;
+  border-radius: 8px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.btn.blue {
+  width: 100%;
+  padding: 10px;
+  background-color: #7482c0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.blue:hover {
+  background-color: #5467ba;
+}
+
+  
+  /* DİĞER SAYFALAR BEYAZ KALSIN */
+  body {
+    background-color: white !important;
+  }
+  
